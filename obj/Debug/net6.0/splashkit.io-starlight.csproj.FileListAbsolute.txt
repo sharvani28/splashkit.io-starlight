@@ -1,0 +1,5 @@
+C:\Users\sharv\OneDrive\Documents\GitHub\splashkit.io-starlight\obj\Debug\net6.0\splashkit.io-starlight.csproj.AssemblyReference.cache
+C:\Users\sharv\OneDrive\Documents\GitHub\splashkit.io-starlight\obj\Debug\net6.0\splashkit.io-starlight.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sharv\OneDrive\Documents\GitHub\splashkit.io-starlight\obj\Debug\net6.0\splashkit.io-starlight.AssemblyInfoInputs.cache
+C:\Users\sharv\OneDrive\Documents\GitHub\splashkit.io-starlight\obj\Debug\net6.0\splashkit.io-starlight.AssemblyInfo.cs
+C:\Users\sharv\OneDrive\Documents\GitHub\splashkit.io-starlight\obj\Debug\net6.0\splashkit.io-starlight.csproj.CoreCompileInputs.cache

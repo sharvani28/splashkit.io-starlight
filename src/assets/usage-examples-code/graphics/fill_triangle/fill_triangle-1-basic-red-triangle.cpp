@@ -5,7 +5,7 @@ int main()
     // Open a window titled "Fill Triangle Example" with dimensions 800x600
     open_window("Fill Triangle Example", 800, 600);
 
-    ClearScreen(ColorWhite());
+    clear_screen();
 
     // Fill a triangle with vertices (100, 100), (200, 200), and (300, 100) with red color
     fill_triangle(COLOR_RED, 100, 100, 200, 200, 300, 100);
