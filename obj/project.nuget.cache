@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "uFSNox4agHuW8z2V/RDdivfxL/E5xI9hqhyh2HYlM1nUexJyi4HFtJUxkRPCy30DzVl865jLh/rH8eZk96Id8Q==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\sharv\\OneDrive\\Documents\\GitHub\\splashkit.io-starlight\\splashkit.io-starlight.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\sharv\\.nuget\\packages\\splashkit\\1.1.4\\splashkit.1.1.4.nupkg.sha512"
+  ],
+  "logs": []
+}
