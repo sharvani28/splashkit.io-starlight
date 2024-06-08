@@ -2,29 +2,31 @@
 
 int main()
 {
-    // Open a window titled "Fill Triangle On Bitmap Example" with dimensions 800x600
-    open_window("Fill Triangle On Bitmap Example", 800, 600);
+    // Open a window titled "Underwater Adventure" with dimensions 800x600
+    open_window("Underwater Adventure", 1000, 800);
 
-    ClearScreen(ColorWhite());
+    clear_screen();
 
-    // Create a bitmap named "triangle_bitmap" with dimensions 500x500
-    bitmap my_bitmap = create_bitmap("triangle_bitmap", 500, 500);
+    // Load the underwater scene bitmap
+    bitmap underwaterScene = load_bitmap("underwater_scene", "underwater_scene.jpg");
 
-    // Fill the triangle on the bitmap with red color
-    fill_triangle_on_bitmap(my_bitmap, COLOR_RED, 100, 100, 200, 200, 300, 100);
 
-    // Draw the bitmap to the screen
-    draw_bitmap(my_bitmap, 0, 0);
+    // Draw the underwater scene bitmap at coordinates (0, 0)
+    draw_bitmap(underwaterScene, 0, 0);
 
-    // Refresh the screen to display the filled triangle on the bitmap
+    // Draw text labels for different elements of the scene
+    draw_text("Colourful Fish", COLOR_RED, "arial", 23, 140, 100);
+    
+
+    // Draw triangles pointing at each element
+    draw_line(COLOR_RED, 180, 120, 205, 155); // Arrow pointing at "Colourful fish"
+    fill_triangle(COLOR_RED, 185, 150, 210, 140, 210, 160); // Arrowhead
+
+    // Refresh the screen to display the changes
     refresh_screen();
-
+    
     // Pause for 5000 milliseconds (5 seconds) to observe the result
-    delay(5000);
-
-    // Close all windows
-    close_all_windows();
-
+    delay(50000);
+    
     return 0;
 }
-
